@@ -11,3 +11,4 @@ pub async fn health() -> impl actix_web::Responder {
     logger::info!("Health was called");
     actix_web::HttpResponse::Ok().body("health is good")
 }
+// My comment
